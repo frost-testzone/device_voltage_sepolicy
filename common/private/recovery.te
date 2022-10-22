@@ -11,6 +11,9 @@ allow recovery self:tcp_socket { create_socket_perms_no_ioctl listen accept };
 allow recovery self:vsock_socket { create_socket_perms_no_ioctl listen accept };
 get_prop(recovery, adbd_config_prop)
 
+# AnyKernel
+allow recovery tmpfs:lnk_file create_file_perms;
+
 # Volume manager
 r_dir_file(recovery, sdcard_type)
 allow recovery block_device:dir create_dir_perms;
