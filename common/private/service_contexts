@@ -14,3 +14,9 @@ linearmotor                               u:object_r:linearmotor_vibrator_servic
 
 # Freeform
 lmo_freeform                              u:object_r:lmo_freeform_service:s0
+
+# Display Resolution Manager
+resolution_ext                            u:object_r:display_resolution_manager_service:s0
+
+# Refresh Rate Manager
+refresh_rate_ext                          u:object_r:refresh_rate_manager_service:s0
