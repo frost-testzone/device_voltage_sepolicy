@@ -17,6 +17,9 @@ ro.vendor.audio.dolby.dax.version      u:object_r:exported_system_prop:s0
 ro.vendor.audio.dolby.surround.enable  u:object_r:exported_system_prop:s0
 
 # Custom version
+ro.voltage.device                      u:object_r:custom_version_prop:s0
+ro.voltage.build.version               u:object_r:custom_version_prop:s0
+ro.voltage.display.version             u:object_r:custom_version_prop:s0
 ro.voltage.version                     u:object_r:custom_version_prop:s0
 
 # NFC
